@@ -1,15 +1,28 @@
-# Transaction Flagger
+# Transaction Flagger (Fintech Mini Project)
 
-Small Python project to practice:
-- lists and loops
-- if / elif / else business rules
-- input validation with try/except
-- simple "flagging" logic
+Rule-based transaction validation and flagging example.
 
-## How to run
+## Business rules
 
-From the repository root:
+INVALID:
+- non-numeric amount
+- amount <= 0
+
+FLAG:
+- high amount (>= 5000)
+- high-risk country (NG)
+
+OK:
+- all other cases
+
+## Skills practiced
+- Python core syntax
+- loops and conditionals
+- data validation
+- rule-based decision logic
+
+## Run
 
 ```bash
-cd projects/bmi_flagger
+cd projects/transaction_flagger
 python3 main.py
