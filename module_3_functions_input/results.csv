@@ -1,0 +1,7 @@
+tx_id,amount,currency,country,status,reason
+TX001,120.50,EUR,HU,ok,normal
+TX002,-50,EUR,DE,invalid,non_positive_number
+TX003,10000,EUR,US,flag,very_high_amount
+TX004,2500,USD,HU,flag,foreign_currency
+TX005,abc,EUR,FR,invalid,parse_error
+TX006,7000,EUR,NG,flag,high_risk_country
